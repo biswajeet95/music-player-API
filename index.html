@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"
+         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+          crossorigin="anonymous"></script>
+          <style>
+            @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap');
+            </style>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+ integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+ crossorigin="anonymous">
+        <title>Music Player</title>
+       <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+     
+       
+       <!-- <div id="todo-list">
+            <div class="main-div">sdfghj</div>
+      </div> -->
+<div id="main-container">
+<section id="player-section">
+
+  <audio  id="audio-player">
+  <source id="audio-source"
+   src="http://edyoda.s3.ap-south-1.amazonaws.com/public/musicfiles/without-you.mp3" 
+   type="audio/mp3"/>
+</audio>
+
+
+<div>
+
+  <div> 
+    <img  id="main-img" src="https://m.media-amazon.com/images/I/81mNRm3F6KL.
+    _SS500_.jpg"/>
+  </div>
+   <h2 id="audio-track-title"></h2>
+ <p id="audio-track-artist"></p>
+  <div id="progress-wrapper">
+   
+   
+    <div id="progress-bar"></div>
+    
+  </div>
+    <button id="btn-play"><i class="fas fa-play-circle"></i></button>
+    <button id="btn-pause"><i class="fas fa-pause-circle"></i></button> 
+    <button id="btn-forward"><i class="fas fa-forward"></i></button>
+    <button id="btn-backward"><i class="fas fa-backward"></i></button> 
+    <button id="btn-next"><i class="fas fa-step-forward"></i></button>
+    <button id="btn-prev"><i class="fas fa-step-backward"></i></button> 
+
+ </div>
+
+
+
+ <div>
+   <!-- <button>0.25x</button>
+   <button id="btn-playback-0.5">0.5x</button>
+   <button id="btn-playback-1">1x</button>
+   <button id="btn-playback-1.5">1.5x</button>
+   <button>2x</button> -->
+
+
+ </div>
+</section>
+
+<section id="playlist-section">
+  <!-- <div class="playlist-card">
+  <img class="cover-img"  
+  src="https://m.media-amazon.com/images/I/81mNRm3F6KL._SS500_.jpg"/>
+ <div>
+    <h3 class="track-title">Without you</h3>
+    <p class="track-artist">Avicii</p>
+  </div> -->
+  </div>
+ 
+
+</section>
+
+</div>
+
+
+
+
+
+
+
+
+ <script src="index.js"></script>
+</body>
+  
+</html>
